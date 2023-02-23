@@ -3,6 +3,7 @@
   <head>
     <title>My Movie List</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
   </head> 
   <body>
     <h1>My Movie List</h1>
