@@ -3,10 +3,11 @@
   <head>
     <title>My Movie List</title>
     <link rel="stylesheet" href="styles.css">
-  </head>
+  </head> 
   <body>
     <h1>My Movie List</h1>
     <div id="movie-list"></div>
+    <div id="alphabetical"></div>
     <form id="movie-form">
       <h2>Add a Movie</h2>
       <label for="title">Title:</label>
