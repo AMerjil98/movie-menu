@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="header.css">
   </head> 
   <body>
-    <h1>My Movie List</h1>
-    <div id="movie-list"></div>
-    <div id="alphabetical"></div>
+    <div id="title">
+        <h1>Top 10 movies</h1>
+    </div>
+    <div id="watch-list">
+        <p>Movies to watch</p>
+    </div>
+    <div id="movie-list"></div>    
     <form id="movie-form">
       <h2>Add a Movie</h2>
       <label for="title">Title:</label>
