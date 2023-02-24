@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Movie List</title>
+  <style>
+    ol {
+      font-size: 20px;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>My Movie List</h1>
+  <div id="movie-list"></div>
+  <div id="alphabetical"></div>
+  <div class="movie-form">
+    <table class="list full-width">
+      <colgroup>
+        <col class="chartTableColumnPoster">
+        <col class="chartTableColumnTitle">
+        <col class="chartTableColumnMPAARating">
+        <col class="chartTableColumnGenre">
+        <col class="chartTableColumnWatchList">
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Title</th>
+          <th>Genre</th>
+          <th>MPAA Rating</th>
+          <th>Save to Watchlist</th>
+        </tr>
+      </thead>
+      <tbody class="top-ten">
+        <tr>
+          <td class="posterColumn">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+              width="100" height="150">
+          </td>
+
+          <td class="titleColumn">The Dark Knight
+            <span class="secondaryInfo">(2008)</span>
+            <a href="https://www.google.com">The Dark Knight</a>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="PG-13"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Crime, Drama"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img
+              src="https://images.moviesanywhere.com/45bc0ec075bfc0b4d8f184a7cc5bf993/876ed805-83b1-4387-b0d0-62d08c36536d.jpg"
+              width="100" height="150" alt="The Lord of the Rings: The Return of the King">
+          </td>
+    
+          <td class="titleColumn">The Lord of the Rings:<br> The Return of the King
+            <span class="secondaryInfo">(2003)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="PG-13"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Adventure, Drama"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
+              width="100" height="150" alt="Inception">
+          </td>
+          <td class="titleColumn">Inception
+            <span class="secondaryInfo">(2010)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="PG-13"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Adventure, Sci-Fi, Thriller"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img src="https://flxt.tmsimg.com/assets/p22804_p_v8_av.jpg" width="100" height="150" alt="The Matrix">
+          </td>
+          <td class="titleColumn">The Matrix
+            <span class="secondaryInfo">(1999)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="R"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Sci-Fi"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3f/The_Empire_Strikes_Back_%281980_film%29.jpg"
+              width="100" height="150" alt="Star Wars Episode V">
+          </td>
+          <td class="titleColumn">Star Wars Episode V:<br> The Empire Strikes Back
+            <span class="secondaryInfo">(1980)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="PG"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Adventure, Fantasy, Sci-Fi"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+              width="100" height="150" alt="Terminator 2: Judgement Day">
+          </td>
+          <td class="titleColumn">Terminator 2: Judgement Day
+            <span class="secondaryInfo">(1991)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="R"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Sci-Fi"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTQ1MDMxODMyN15BMl5BanBnXkFtZTgwNjM2OTE4MzE@._V1_.jpg"
+              width="100" height="150" alt="Seven Samurai">
+          </td>
+          <td class="titleColumn">Seven Samurai
+            <span class="secondaryInfo">(1954)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="TV-14"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Drama"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img src="https://flxt.tmsimg.com/assets/p23069_p_v8_aa.jpg" alt="Fight Club"
+              width="100" height="150">
+            </td>
+          <td class="titleColumn">Fight Club
+            <span class="secondaryInfo">(1999)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="R"></strong>
+          </td>
+          <td class="genreColumn">
+            "Drama"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+              width="100" height="150" alt="Gladiator">
+          </td>
+          <td class="titleColumn">Gladiator
+            <span class="secondaryInfo">(2000)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="R"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Adventure, Drama"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+
+        <tr>
+          <td class="posterColumn">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BOTgyMWQ0ZWUtN2Q2MS00NmY0LWI3OWMtNjFkMzZlNDZjNTk0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg"
+              alt="The Professional" width="100" height="150">
+          </td>
+          <td class="titleColumn">The Professional
+            <span class="secondaryInfo">(1980)</span>
+          </td>
+          <td class="mpaaRatingColumn">
+            <strong title="PG"></strong>
+          </td>
+          <td class="genreColumn">
+            "Action, Crime, Drama"</td>
+          <br>
+          <td class="watchListColumn">Add, Remove, Delete, Save</td>
+        </tr>
+        </tr>
+      </tbody>
+      </colgroup>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
