@@ -1,0 +1,72 @@
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Genre</th>
+      <th>MPAA Rating</th>
+      <th>Save to Watchlist</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The Dark Knight</td>
+      <td>Action, Crime, Drama</td>
+      <td>PG-13</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>The Lord of the Rings: The Return of the King</td>
+      <td>Action, Adventure, Drama</td>
+      <td>PG-13</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>Inception</td>
+      <td>Action, Adventure, Sci-Fi</td>
+      <td>PG-13</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>The Matrix</td>
+      <td>Action, Sci-Fi</td>
+      <td>R</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>Star Wars: Episode V - The Empire Strikes Back</td>
+      <td>Action, Adventure, Fantasy</td>
+      <td>PG</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>Terminator 2: Judgment Day</td>
+      <td>Action, Sci-Fi</td>
+      <td>R</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>Seven Samurai</td>
+      <td>Action, Drama</td>
+      <td>Unrated</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>Fight Club</td>
+      <td>Drama</td>
+      <td>R</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>Gladiator</td>
+      <td>Action, Drama</td>
+      <td>R</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+    <tr>
+      <td>The Professional</td>
+      <td>Action, Crime, Drama</td>
+      <td>R</td>
+      <td><button>Add to Watchlist</button></td>
+    </tr>
+  </tbody>
+</table>
